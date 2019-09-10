@@ -1,18 +1,11 @@
 # 2016-TNNLS-BOE
 
-### An example code for the algorithm proposed in
-%
-%   [1] Xi Peng, Bo Zhao, Rui Yan, Huajin Tang, and Zhang Yi,  
-%       Bag of Events: An Efficient and Online Probability-based Low-level Feature Extraction Method for AER Image Sensors,  
-%       IEEE Trans Neural Networks and Learning Systems (TNNLS), vol. 28, no. 4, pp. 791-803, Apr. 2017. DOI:10.1109/TNNLS.2016.2536741.  
-
 ### Description: 
 - accumulate the events into frames and then training and testing based on these frames
 - all the data into the cell (CINs) are partitioned into mupltiple frame of which consists of nEvt events
 - event frequence - inverse frame frequence (ef-weight) is used to reweight the event frequence
 - only SVM can be applied to this case!
-
-### Each column corresponds to a data point.
+- Each column corresponds to a data point.
 
 ## ***NOTICED that***:
 % If the codes or data sets are helpful to you, please appropriately cite our works. Thank you very much!
