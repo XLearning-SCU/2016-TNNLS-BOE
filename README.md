@@ -38,15 +38,15 @@ We have also provided a compiled mex under the filefold ``LinearSVM_Win64‘’
 # Citation
 * Xi Peng, Bo Zhao, Rui Yan, Huajin Tang, and Zhang Yi, Bag of Events: An Efficient Probability-Based Feature Extraction Method for AER Image Sensors, IEEE Trans Neural Networks and Learning Systems (TNNLS), vol. 28, no. 4, pp. 791-803, Apr. 2017. DOI:10.1109/TNNLS.2016.2536741.
 
-* @ARTICLE{Peng2017:Bag_full, 
-author={X. Peng and B. Zhao and R. Yan and H. Tang and Z. Yi}, 
-journal={IEEE Transactions on Neural Networks and Learning Systems}, 
-title={Bag of Events: An Efficient Probability-Based Feature Extraction Method for AER Image Sensors}, 
-year={2017}, 
-volume={28}, 
-number={4}, 
-pages={791-803}, 
-keywords={Cameras;Feature extraction;Hardware;Image sensors;Neurons;Training data;Voltage control;Address-event representation (AER);dynamic vision sensor (DVS);events-based categorization;neuromorphic computing;online learning;statistical learning method}, 
-doi={10.1109/TNNLS.2016.2536741}, 
-ISSN={2162-237X}, 
+* @ARTICLE{Peng2017:Bag_full,   
+author={X. Peng and B. Zhao and R. Yan and H. Tang and Z. Yi},   
+journal={IEEE Transactions on Neural Networks and Learning Systems},   
+title={Bag of Events: An Efficient Probability-Based Feature Extraction Method for AER Image Sensors},   
+year={2017},   
+volume={28},   
+number={4},   
+pages={791-803},   
+keywords={Cameras;Feature extraction;Hardware;Image sensors;Neurons;Training data;Voltage control;Address-event representation (AER);dynamic vision sensor (DVS);events-based categorization;neuromorphic computing;online learning;statistical learning method},   
+doi={10.1109/TNNLS.2016.2536741},   
+ISSN={2162-237X},   
 month={April},}
