@@ -1,0 +1,47 @@
+% =========================================================================
+% An example code for the algorithm proposed in
+%
+%   [1] Xi Peng, Bo Zhao, Rui Yan, Huajin Tang, and Zhang Yi,
+%       Bag of Events: An Efficient and Online Probability-based Low-level Feature Extraction Method for AER Image Sensors,
+%       IEEE Trans. on Neural Networks and Learning Systems, 2016, In Press.
+
+% Description: 
+% 1. accumulate the events into frames and then training and testing based on these frames
+% 2. all the data into the cell (CINs) are partitioned into mupltiple frame
+% of which consists of nEvt events
+% 3. event frequence - inverse frame frequence (ef-weight) is used to reweight the
+% event frequence
+% only SVM can be applied to this case!
+
+% Written by Xi Peng @ I2R A*STAR
+% Sep., 2014.
+% More information can be accessed from *** www.pengxi.me ***
+
+% Each column corresponds to a data point.
+
+% ***NOTICED that***:
+% If the codes or data sets are helpful to you, please appropriately cite our works. Thank you very much!
+% =========================================================================
+
+
+
+The MATLAB code of BOE is stored under the filefold 'BOE', but all the other filefolds are needed!
+
+--------------------The filefold ``BOE''
+1. main_cards_DVS.m: run experiment on the card dvs data set;
+2. main_mnist_DVS.m: run experiment on the mnist dvs data set;
+3. main_posture_DVS.m: run experiment on the posture dvs data set;
+
+--------------------The filefold ``events''
+To store the original DVS database
+
+--------------------The filefold ``data''
+To store temporary data
+
+--------------------The filefold ``usages''
+The code of svm with linear kernel. If you hope to test other classifier such as nonlinear SVM, please modify the code accordingly.
+If you perform experiment using MAC, nothing need to be modified. otherwise, please complie the SVM lib, linearlib. 
+We have also provided a compiled mex under the filefold ``LinearSVM_Win64‘’
+
+If have any problems, please let me know via pangsaai [at] gmail [dot] com. :)
+
